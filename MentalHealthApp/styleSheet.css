@@ -1,0 +1,62 @@
+
+.h1{
+  color: black;
+  font-family: 'Handlee', cursive;
+}
+
+#p{
+  font-family: 'Handlee', cursive;
+}
+
+.button1 {
+  justify-content: center;
+  background-color: grey;
+  color: pink ;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 150px;
+  font-family: 'Handlee', cursive;
+
+}
+
+.topright {
+position: absolute;
+top: 8px;
+right: 16px;
+font-size: 18px;
+color:red;
+width: 300px;
+height: 100px;
+border: 1px solid yellow;
+font-family: 'Handlee', cursive;
+  }
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 24;
+    padding: 10px;
+    height: 1; /* Should be removed. Only for demonstration */
+    font-family: 'Handlee', cursive;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.questionaire{
+    font-family: 'Handlee', cursive;}
+
+.comments{
+  font-family: 'Handlee', cursive;
+}
